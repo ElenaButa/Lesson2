@@ -48,7 +48,6 @@ public class FirstProgram {
         b = Math.abs(A.y - B.y);
         c = Math.sqrt(a * a + b * b);
         System.out.println("Вычисление расстояния в задаче (в функции):");
-        // System.out.println(MessageFormat.format("Расстояние между точками A и B = {0}", c));//String.format("%.2f", c)));
         System.out.println("Расстояние между точками A и B = " + c);
     }
 
